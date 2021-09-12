@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+body {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+article {
+    margin: 0 auto;
+    border: 2px;
+    border-color: rgb(202, 208, 219);
+    border-style: solid;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Forum', cursive;
+}
+
+#email {
+    block-size: 25px;
+    border: 1px;
+    border-color:rgb(202, 208, 219) ;
+    border-style: solid;
+}
+
+#pass {
+    block-size: 25px;
+    border: 1px;
+    border-color:rgb(202, 208, 219) ;
+    border-style: solid;
+}
+
+::placeholder{
+    font-size: 0.9em;
+    padding-left: 15px;
+}
+
+#entrar {
+
+    block-size: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #04367b;
+    border: unset;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    cursor: -webkit-grabbing;
+    width: 100%;
+}
+
+
+.rec {
+    margin: 0px 0px 20px 0px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    border-color:rgb(202, 208, 219);
+    cursor: -webkit-grabbing;
+    background-color: white;
+    block-size: 30px;
+}
